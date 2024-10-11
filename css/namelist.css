@@ -69,7 +69,6 @@ h1 {
 
 select {
     border: 1px solid black;
-    font-size: 14px;
 }
 
 .solo {
@@ -78,10 +77,19 @@ select {
 
 .change {
     text-align: center;
-    background-color: #e0b17b;
+    background-color: rgba(197, 185, 168, 0.604);
+
     border: 1px solid black;
     padding: 5px;
     margin: 10px;
+}
+
+.ari {
+    background-color: antiquewhite;
+}
+
+.nashi {
+    background-color: antiquewhite;
 }
 
 
