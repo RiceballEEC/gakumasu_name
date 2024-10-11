@@ -8,9 +8,8 @@ Vue.createApp({
         <h1>学マス呼称確認ツール</h1>
         <rule-modal />
     <div class="tab">
-    
-    <button  class="change" v-on:click="onclick('two')">対象指定あり</button>
-    <button  class="change" v-on:click="onclick('one')">対象指定なし</button>
+    <button  class="change" v-on:click="onclick('two')" v-bind:class="{ari}">対象指定あり</button>
+    <button  class="change" v-on:click="onclick('one')" v-bind:class="{nashi}">対象指定なし</button>
     </div>
 </div>
     <keep-alive>
@@ -19,6 +18,13 @@ Vue.createApp({
     methods:{
         onclick(tab){
             this.components = tab
+            if (tab === "two") {
+                this.ari = true
+                this.nashi = false
+            } else {
+                this.ari = false
+                this.nashi = true
+            }
         }
     },
     computed:{
@@ -29,7 +35,9 @@ Vue.createApp({
     ,
         data(){
             return{
-            components:'two'
+            components:'two',
+            ari: true,
+            nashi: false
             }
         }
 
