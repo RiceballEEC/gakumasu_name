@@ -15,8 +15,7 @@ body {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    max-width: 800px;
-    margin: auto;
+
     padding: 15px;
 }
 
@@ -30,8 +29,8 @@ h1 {
 .top,
 .idol_choice,
 .idol_name {
-    max-width: 600px;
-    margin: auto;
+    max-width: 400px;
+
 }
 
 .tab {
@@ -95,8 +94,8 @@ select {
 
 .flexarea {
     display: flex;
-    justify-content: space-between;
     gap: 30px;
+   justify-content: center;
 }
 
 
@@ -106,6 +105,7 @@ select {
 table {
     border-collapse: collapse;
     min-width: 200px;
+    margin: auto;
 }
 
 td,
