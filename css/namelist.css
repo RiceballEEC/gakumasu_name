@@ -139,7 +139,7 @@ td {
 }
 
 .modal_in {
-    margin: 50px auto;
+    margin: 50px 5px;
     background-color: #f5f5f5;
     max-width: 450px;
     padding: 10px;
