@@ -98,7 +98,6 @@ Vue.createApp({
                             <option value="misuzu">秦谷美鈴</option>
                             <option value="sena">十王星南</option>
                             <option value="producer">プロデューサー</option>
-                            <option value="kunio">十王邦夫</option>
                         </select>
                     </form>
                 </div>
@@ -204,14 +203,7 @@ Vue.createApp({
                             <option value="rinami">姫崎莉波</option>
                             <option value="misuzu">秦谷美鈴</option>
                             <option value="sena">十王星南</option>
-                            <option value="yu">真城優</option>
                             <option value="producer">プロデューサー</option>
-                            <option value="asari">根緒亜紗里</option>
-                            <option value="kunio">十王邦夫</option>
-                            <option value="vitrainer">Viトレーナー
-                            </option>
-                            <option value="datrainer">Daトレーナー</option>
-                            <option value="votrainer">Voトレーナー</option>
                         </select>
                     </form>
                 </div>
