@@ -69,6 +69,7 @@ h1 {
 
 select {
     border: 1px solid black;
+    font-size: 14px;
 }
 
 .solo {
