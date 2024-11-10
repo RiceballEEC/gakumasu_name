@@ -3,6 +3,7 @@ export const nameDate = {
         {
             "temari": [{ "name": "手毬", "data": "初星コミュ/1章9話以降", "filt": "hatsuboshi", "to": "手毬" },
             { "name": "月村手毬", "data": "初星コミュ/1章13話", "filt": "hatsuboshi", "to": "手毬" },
+            {"name":"手毬","data":"サポートコミュ","filt":"support","to":"手毬"},
             { "name": "月村手毬", "data": "1年1組のアイドルたち/3話", "filt": "event", "to": "手毬" },
             { "name": "手毬", "data": "1年1組のアイドルたち/共通", "filt": "event", "to": "手毬" }]
         },
@@ -10,6 +11,7 @@ export const nameDate = {
             "kotone": [
                 { "name": "ことね", "data": "初星コミュ/1章8話以降", "filt": "hatsuboshi", "to": "ことね" },
                 { "name": "ことね先輩", "data": "初星コミュ/1章9,10,11話", "filt": "hatsuboshi", "to": "ことね" },
+                {"name":"ことね","data":"サポートコミュ","filt":"support","to":"ことね"},
                 { "name": "ことね", "data": "夏宵フェイスオフ/共通", "filt": "event", "to": "ことね" }
             ]
         },
